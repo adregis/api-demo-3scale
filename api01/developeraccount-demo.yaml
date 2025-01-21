@@ -2,6 +2,6 @@ apiVersion: capabilities.3scale.net/v1beta1
 kind: DeveloperAccount
 metadata:
   name: developeraccount1
-  namespace: threescale
+  namespace: 3scale
 spec:
   orgName: Ecorp

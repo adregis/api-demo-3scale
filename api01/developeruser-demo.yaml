@@ -2,7 +2,7 @@ apiVersion: capabilities.3scale.net/v1beta1
 kind: DeveloperUser
 metadata:
   name: developeruser01
-  namespace: threescale
+  namespace: 3scale
 spec:
   username: myusername01
   email: myusername01@example.com

@@ -4,7 +4,7 @@ metadata:
   name: api-demo-3scale
 spec:
   destination:
-    namespace: threescale
+    namespace: 3scale
     server: https://kubernetes.default.svc
   project: default
   source:

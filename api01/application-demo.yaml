@@ -5,7 +5,7 @@ metadata:
     argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/sync-wave: "3"
   name: application-sample
-  namespace: threescale
+  namespace: 3scale
 spec:
   accountCR:
     name: developeraccount1
@@ -15,6 +15,4 @@ spec:
   productCR:
     name: product1
   suspend: false
-#  serviceRef:
-#    name: product1
-# userKey: "your-user-key"  
+
