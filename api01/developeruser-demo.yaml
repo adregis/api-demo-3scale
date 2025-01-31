@@ -2,7 +2,7 @@ apiVersion: capabilities.3scale.net/v1beta1
 kind: DeveloperUser
 metadata:
   name: developeruser-admin-sample
-  namespace: 3scale
+  namespace: 3scale-dev
 spec:
   developerAccountRef:
     name: developeraccount1

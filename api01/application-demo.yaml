@@ -5,7 +5,7 @@ metadata:
     argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/sync-wave: "3"
   name: application-sample
-  namespace: 3scale
+  namespace: 3scale-dev
 spec:
   accountCR:
     name: developeraccount1
