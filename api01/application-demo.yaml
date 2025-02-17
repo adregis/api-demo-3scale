@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/hook: PreSync
     argocd.argoproj.io/sync-wave: "3"
-  name: application-sample
+  name: application1
   namespace: 3scale-dev
 spec:
   accountCR:
@@ -15,4 +15,3 @@ spec:
   productCR:
     name: product1
   suspend: false
-
