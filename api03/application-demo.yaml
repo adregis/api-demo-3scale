@@ -9,7 +9,7 @@ metadata:
 spec:
   accountCR:
     name: developeraccount2
-  applicationPlanName: plan01
+  applicationPlanName: plan03
   description: 'testing application'
   name: testApp
   productCR:
