@@ -5,7 +5,7 @@ metadata:
   namespace: 3scale-dev
 spec:
   username: myusername02
-  email: myusername02example.com
+  email: myusername02@example.com
   passwordCredentialsRef:
     name: myusername02
   role: admin
