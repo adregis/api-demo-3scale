@@ -7,7 +7,7 @@ spec:
   name: "OperatedProduct 2"
   systemName: operatedproduct2
   backendUsages:
-    backend1:
+    backend2:
       path: /
   applicationPlans:
     plan01:
