@@ -4,6 +4,6 @@ metadata:
   name: proxyconfigpromote
   namespace: 3scale-dev
 spec:
-  productCRName: product1
+  productCRName: product2
   production: true
   deleteCR: false

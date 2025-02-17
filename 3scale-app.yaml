@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: api-demo-3scale
+  name: api01-3scale
 spec:
   destination:
-    namespace: 3scale
+    namespace: 3scale-dev
     server: https://kubernetes.default.svc
   project: default
   source:
@@ -20,7 +20,7 @@ spec:
   sync:
     comparedTo:
       destination:
-        namespace: threescale
+        namespace: 3scale-dev
         server: https://kubernetes.default.svc
       source:
         path: api01/

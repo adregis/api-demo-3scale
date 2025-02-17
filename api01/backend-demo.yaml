@@ -1,9 +1,9 @@
 kind: Backend
 apiVersion: capabilities.3scale.net/v1beta1
 metadata:
-  name: backend1
+  name: backend2
   namespace: 3scale-dev
 spec:
-  name: Operated Backend 1
+  name: Operated Backend 2
   privateBaseURL: 'https://echo-api.3scale.net:443'
-  systemName: backend1
+  systemName: backend2

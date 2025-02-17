@@ -1,13 +1,13 @@
 apiVersion: capabilities.3scale.net/v1beta1
 kind: DeveloperUser
 metadata:
-  name: developeruser01
+  name: developeruser02
   namespace: 3scale-dev
 spec:
-  username: myusername01
-  email: myusername01@example.com
+  username: myusername02
+  email: myusername02example.com
   passwordCredentialsRef:
-    name: myusername01
+    name: myusername02
   role: admin
   developerAccountRef:
-    name: developeraccount1
+    name: developeraccount2
