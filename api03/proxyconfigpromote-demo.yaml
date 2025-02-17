@@ -1,7 +1,7 @@
 apiVersion: capabilities.3scale.net/v1beta1
 kind: ProxyConfigPromote
 metadata:
-  name: proxyconfigpromote
+  name: proxyconfigpromote3
   namespace: 3scale-dev
   annotations:
     argocd.argoproj.io/hook: PreSync
