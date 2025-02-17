@@ -1,0 +1,12 @@
+apiVersion: capabilities.3scale.net/v1beta1
+kind: ProxyConfigPromote
+metadata:
+  name: proxyconfigpromote
+  namespace: 3scale-dev
+  annotations:
+    argocd.argoproj.io/hook: PreSync
+    argocd.argoproj.io/sync-wave: "4"
+spec:
+  productCRName: product3
+  production: true
+  deleteCR: false
