@@ -5,7 +5,7 @@ metadata:
   namespace: 3scale-dev
   annotations:
     argocd.argoproj.io/hook: PreSync
-    argocd.argoproj.io/sync-wave: "4"
+    argocd.argoproj.io/sync-wave: "1"
 spec:
   productCRName: product3
   production: true
