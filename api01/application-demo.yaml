@@ -1,7 +1,6 @@
 kind: Application
 apiVersion: capabilities.3scale.net/v1beta1
 metadata:
- 
   name: application2
   namespace: 3scale-dev
 spec:
