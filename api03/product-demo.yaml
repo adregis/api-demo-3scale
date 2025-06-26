@@ -17,7 +17,7 @@ spec:
     - httpMethod: GET
       increment: 1
       metricMethodRef: hits
-      pattern: /    
+      pattern: /hello   
 #  policies:
 #    - configuration:
 #        auth_type: user_key
