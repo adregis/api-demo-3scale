@@ -12,7 +12,7 @@ spec:
   applicationPlans:
     plan03:
       name: "My Plan 03"
-      setupFee: "00.20"
+      setupFee: "00.10"
   mappingRules:
     - httpMethod: GET
       increment: 1
